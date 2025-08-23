@@ -1,16 +1,12 @@
 # first_app
 
-A new Flutter project.
+A Mobile Application Development For Business Course Flutter project.
 
-## Getting Started
+## How it works?
 
-This project is a starting point for a Flutter application.
+This project was targeted all platforms those Flutter supports. So, it should works on any platform.
+Open this project in your preferred IDEs with Dart and Flutter SDK installed, compile it!
 
-A few resources to get you started if this is your first Flutter project:
+### What's about this project?
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+A profile card. Written in Dart and Flutter.
