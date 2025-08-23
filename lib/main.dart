@@ -1,6 +1,5 @@
 import 'package:first_app/assignment1.dart';
 import 'package:flutter/material.dart';
-// import 'package:first_app/week3.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +17,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: Assignment1() // It will be complied assignment1.dart as homepage..
+      home:
+          Assignment1(), // It will be compiled as assignment1.dart and used as the homepage.
     );
   }
 }
