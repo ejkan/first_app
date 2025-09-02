@@ -10,12 +10,12 @@ Science, Silpakorn University.
 
 [By lorenrui](https://www.figma.com/@jorenrui)
 
-### How it works?
+## How it works?
 
-This project targets all platforms Flutter supports, so it should work on any platform.
+This project targets all platforms Flutter supports, so it should work on any platforms.
 
 Open it in your preferred IDEs with Dart and Flutter SDK installed, compile it!
 
-#### What's about this project?
+## What's about this project?
 
 A profile card. Written in Dart and Flutter.
