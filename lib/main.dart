@@ -1,5 +1,6 @@
-import 'package:first_app/assignment1.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'assignment1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,14 +12,19 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      debugShowCheckedModeBanner: false,
-      home:
-          Assignment1(), // It will be compiled as assignment1.dart and used as the homepage.
+      title: 'Flutter Theme Demo',
+      theme: _buildTheme(Brightness.light), // Or Brightness.dark
+      home: const Assignment1(),
     );
   }
+}
+
+// Theme function for replacing font family.
+ThemeData _buildTheme(Brightness brightness) {
+  final ThemeData baseTheme = ThemeData(brightness: brightness);
+
+  return baseTheme.copyWith(
+    // This will apply the Krub font to all text styles
+    textTheme: GoogleFonts.krubTextTheme(baseTheme.textTheme),
+  );
 }
